@@ -1738,7 +1738,7 @@
 			margin:auto;
 			text-align:center;
 		}
-		.header .nav .mini .logo {max-width:100px;top:2px;position:relative;}
+		.header .nav .mini .logo {max-width:100px;top:2px;position:relative;left: -30px; padding-bottom: 20px; font-size: 15px;}
 		.header .nav .mini .logo img {width:100%;top:0px;position:relative;}
 		.header .nav .mini .logo img {
 			width:auto;
@@ -2080,3 +2080,4 @@
 	font-weight: bold;
 	src: local('Open Sans Extrabold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
 }
+
