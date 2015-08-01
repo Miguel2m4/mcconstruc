@@ -30,7 +30,7 @@
 		position:absolute;
 		z-index:1;
 		min-width:340px;
-		background:#2280a8;
+		background:#787B4E;
 	}
 	body .slug-pattern .background-image {
 		background: transparent url(../images/background-1.jpg) no-repeat scroll center 40px;
@@ -441,6 +441,7 @@
 		font-weight:normal;
 		font-style:normal;
 		color:#535151;
+		line-height: 17px;
 	}
 	.body .callout.intext .intext-button  {width:100%;}
 	.body .callout.intext .intext-button a {
@@ -1175,7 +1176,7 @@
 	.body .portfolio.standard .item .border div.mask a {margin-top:-18px;margin-left:-18px;}
 	.body .portfolio.standard .item h5,.body .portfolio.standard .item p,.body .portfolio.standard .item a {color:#4c4c4c;text-align:center;line-height:12px;margin:0;}
 	.body .portfolio.standard .item h5 {font-size:14px;margin:13px 0 0 0;}
-	.body .portfolio.standard .item p {color:#9b9b9b;margin:10px 10px 6px 10px;}
+	.body .portfolio.standard .item p {color:#9b9b9b;margin:10px 10px 6px 10px;    line-height: 17px;}
 	.body .portfolio.standard.three .item {max-width:290px;}
 	.body .portfolio.standard .shadow {position:absolute;bottom:-15px;}
 	.body .portfolio.standard.three .shadow {background:url(../images/design/shadow-portfolio-three.png) transparent;height:15px;width:299px;}
@@ -1737,7 +1738,7 @@
 			margin:auto;
 			text-align:center;
 		}
-		.header .nav .mini .logo {max-width:100px;top:2px;position:relative;}
+		.header .nav .mini .logo {max-width:100px;top:2px;position:relative;left: -30px; padding-bottom: 20px; font-size: 15px;}
 		.header .nav .mini .logo img {width:100%;top:0px;position:relative;}
 		.header .nav .mini .logo img {
 			width:auto;
@@ -2079,3 +2080,4 @@
 	font-weight: bold;
 	src: local('Open Sans Extrabold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
 }
+
