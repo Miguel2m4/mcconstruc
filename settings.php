@@ -6,7 +6,7 @@
 ***********************************************************************/
 
 // This is the email all the contact forms will send you
-$global_email		=	"email@example.com";
+$global_email		=	"asistenteadmonth@mcconstrucciones.co";
 $GLOBALS['geg'] = $global_email;
 
 
