@@ -17,6 +17,13 @@
 /* #Site Styles
 ================================================== */
 	/* =========== HEADER STARTS =========== */
+
+	.activo{
+		display: block;
+	}
+	.no-activo{
+		display: none;
+	}
 	.header {
 		width:100%;
 		position:relative;
@@ -2080,4 +2087,7 @@
 	font-weight: bold;
 	src: local('Open Sans Extrabold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
 }
-
+#galeria li{
+	cursor: pointer;
+	border-bottom: 1px dotted #ccc;
+}

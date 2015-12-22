@@ -29,12 +29,116 @@
 <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
 <script type="text/javascript" src="js/jquery.prettyPhoto.js" charset="utf-8"></script>
 <script type="text/javascript" src="js/pgwslideshow.min.js"></script>
-                    <script type="text/javascript" >
-                        $(document).ready(function() {
-                            pgwSlideshow = $('.pgwSlideshowLight').pgwSlideshow({mainClassName:'pgwSlideshowLight',transitionEffect: 'fading',autoSlide:true});
-                        });
-                    </script>
+<script type="text/javascript">
+$(document).ready(function(){
 
+            slidegaes = $('.pgwSlideshowLight').pgwSlideshow({mainClassName:'pgwSlideshowLight',transitionEffect: 'fading',autoSlide:true,adaptiveDuration:200});
+
+            $('#galeria').find('li').eq(0).on('click',function(){
+                $('#galeria li').removeAttr('style');
+                $(this).css('font-weight', 'bold');
+                $('.activo').fadeOut().removeClass('activo').addClass('no-activo');
+                $('#gale1').removeClass('no-activo').addClass('activo').fadeIn();
+
+            });
+
+            $('#galeria').find('li').eq(1).on('click',function(){
+                $('#galeria li').removeAttr('style');
+                $(this).css('font-weight', 'bold');
+                $('.activo').fadeOut().removeClass('activo').addClass('no-activo');
+                $('#gale2').removeClass('no-activo').addClass('activo').fadeIn();
+            });
+
+            $('#galeria').find('li').eq(2).on('click',function(){
+                $('#galeria li').removeAttr('style');
+                $(this).css('font-weight', 'bold');
+                $('.activo').fadeOut().removeClass('activo').addClass('no-activo');
+                $('#gale3').removeClass('no-activo').addClass('activo').fadeIn();
+            });
+
+            $('#galeria').find('li').eq(3).on('click',function(){
+                 $('#galeria li').removeAttr('style');
+                $(this).css('font-weight', 'bold');
+                $('.activo').fadeOut().removeClass('activo').addClass('no-activo');
+                $('#gale4').removeClass('no-activo').addClass('activo').fadeIn();
+            });
+            $('#galeria').find('li').eq(4).on('click',function(){
+                 $('#galeria li').removeAttr('style');
+                $(this).css('font-weight', 'bold');
+                $('.activo').fadeOut().removeClass('activo').addClass('no-activo');
+                $('#gale5').removeClass('no-activo').addClass('activo').fadeIn();
+            });
+            $('#galeria').find('li').eq(5).on('click',function(){
+                 $('#galeria li').removeAttr('style');
+                $(this).css('font-weight', 'bold');
+                $('.activo').fadeOut().removeClass('activo').addClass('no-activo');
+                $('#gale6').removeClass('no-activo').addClass('activo').fadeIn();
+            });
+            $('#galeria').find('li').eq(6).on('click',function(){
+                 $('#galeria li').removeAttr('style');
+                $(this).css('font-weight', 'bold');
+                $('.activo').fadeOut().removeClass('activo').addClass('no-activo');
+                $('#gale7').removeClass('no-activo').addClass('activo').fadeIn();
+            });
+            $('#galeria').find('li').eq(7).on('click',function(){
+                 $('#galeria li').removeAttr('style');
+                $(this).css('font-weight', 'bold');
+                $('.activo').fadeOut().removeClass('activo').addClass('no-activo');
+                $('#gale8').removeClass('no-activo').addClass('activo').fadeIn();
+            });
+            $('#galeria').find('li').eq(8).on('click',function(){
+                 $('#galeria li').removeAttr('style');
+                $(this).css('font-weight', 'bold');
+                $('.activo').fadeOut().removeClass('activo').addClass('no-activo');
+                $('#gale9').removeClass('no-activo').addClass('activo').fadeIn();
+            });
+            $('#galeria').find('li').eq(9).on('click',function(){
+                 $('#galeria li').removeAttr('style');
+                $(this).css('font-weight', 'bold');
+                $('.activo').fadeOut().removeClass('activo').addClass('no-activo');
+                $('#gale10').removeClass('no-activo').addClass('activo').fadeIn();
+            });
+            $('#galeria').find('li').eq(10).on('click',function(){
+                 $('#galeria li').removeAttr('style');
+                $(this).css('font-weight', 'bold');
+                $('.activo').fadeOut().removeClass('activo').addClass('no-activo');
+                $('#gale11').removeClass('no-activo').addClass('activo').fadeIn();
+            });
+            $('#galeria').find('li').eq(11).on('click',function(){
+                 $('#galeria li').removeAttr('style');
+                $(this).css('font-weight', 'bold');
+                $('.activo').fadeOut().removeClass('activo').addClass('no-activo');
+                $('#gale12').removeClass('no-activo').addClass('activo').fadeIn();
+            });
+            $('#galeria').find('li').eq(12).on('click',function(){
+                 $('#galeria li').removeAttr('style');
+                $(this).css('font-weight', 'bold');
+                $('.activo').fadeOut().removeClass('activo').addClass('no-activo');
+                $('#gale13').removeClass('no-activo').addClass('activo').fadeIn();
+            });
+            $('#galeria').find('li').eq(13).on('click',function(){
+                 $('#galeria li').removeAttr('style');
+                $(this).css('font-weight', 'bold');
+                $('.activo').fadeOut().removeClass('activo').addClass('no-activo');
+                $('#gale14').removeClass('no-activo').addClass('activo').fadeIn();
+            });
+            $('#galeria').find('li').eq(14).on('click',function(){
+                 $('#galeria li').removeAttr('style');
+                $(this).css('font-weight', 'bold');
+                $('.activo').fadeOut().removeClass('activo').addClass('no-activo');
+                $('#gale15').removeClass('no-activo').addClass('activo').fadeIn();
+            });
+            $('#galeria').find('li').eq(15).on('click',function(){
+                 $('#galeria li').removeAttr('style');
+                $(this).css('font-weight', 'bold');
+                $('.activo').fadeOut().removeClass('activo').addClass('no-activo');
+                $('#gale16').removeClass('no-activo').addClass('activo').fadeIn();
+            });
+
+
+})
+
+</script>
 </head>
 
 <body><div class="page-wrapper">
@@ -123,11 +227,11 @@
                     <div class="container">
                         <div class="sixteen columns blog">
 
-                             <div class="border">
+                             <div class="border gales">
                                     <!-- <img class="scale-with-grid" src="images/mapa.jpg">
 
                                 <div class=" mask" id="specialID0" style="width: 651px; height: 261px; display: none; opacity: 1;"><span class="zoom"><a href="images/mapa.jpg" class="prettyPhoto hoverZoomLink"></a></span></div> -->
-                                <div style="margin-top: 50px" class="activo">
+                                <div style="margin-top: 50px" class="activo" id="gale1">
                                     <ul class="pgwSlideshowLight">
                                         <li><img src="images/proyectos/hospital_cas1.jpg" alt="HOSPITAL DEPARTAMENTAL DE CASTILLA" data-description=""></li>
                                         <li><img src="images/proyectos/hospital_cas2.jpg" alt="HOSPITAL DEPARTAMENTAL DE CASTILLA" data-description=""></li>
@@ -137,13 +241,13 @@
                                     </ul>
                                 </div>
 
-                                <div style="margin-top: 50px" >
+                                <div style="margin-top: 50px" class="no-activo" id="gale2" >
                                     <ul class="pgwSlideshowLight">
                                         <li><img src="images/proyectos/urba_mad.jpg" alt="URBANIZACIÓN LA MADRID" data-description=""></li>
                                     </ul>
                                 </div>
 
-                                <div style="margin-top: 50px">
+                                <div style="margin-top: 50px" class="no-activo" id="gale3">
                                     <ul class="pgwSlideshowLight">
                                         <li><img src="images/proyectos/plaza1.jpg" alt="PLAZA DE MERCADO ACACIAS" data-description=""></li>
                                         <li><img src="images/proyectos/plaza2.jpg" alt="PLAZA DE MERCADO ACACIAS" data-description=""></li>
@@ -153,7 +257,7 @@
                                     </ul>
                                 </div>
 
-                                <div style="margin-top: 50px">
+                                <div style="margin-top: 50px" class="no-activo" id="gale4">
                                     <ul class="pgwSlideshowLight">
                                         <li><img src="images/proyectos/REM1.jpg" alt="URBANIZACIÓN REMANSOS DE ROSA BLANCA" data-description=""></li>
                                         <li><img src="images/proyectos/REM2.png" alt="URBANIZACIÓN REMANSOS DE ROSA BLANCA" data-description=""></li>
@@ -162,7 +266,7 @@
                                     </ul>
                                 </div>
 
-                                <div style="margin-top: 50px">
+                                <div style="margin-top: 50px" class="no-activo" id="gale5">
                                     <ul class="pgwSlideshowLight">
                                         <li><img src="images/proyectos/biblio1.jpg" alt="BIBLIOTECA PUBLICA MUNICIPIO DE ACACIAS" data-description=""></li>
                                         <li><img src="images/proyectos/biblio2.jpg" alt="BIBLIOTECA PUBLICA MUNICIPIO DE ACACIAS" data-description=""></li>
@@ -172,7 +276,7 @@
                                     </ul>
                                 </div>
 
-                                <div style="margin-top: 50px">
+                                <div style="margin-top: 50px" class="no-activo" id="gale6">
                                     <ul class="pgwSlideshowLight">
                                         <li><img src="images/proyectos/bliosan1.jpg" alt="BIBLIOTECA PUBLICA MUNICIPIO DE SAN MARTIN" data-description=""></li>
                                         <li><img src="images/proyectos/bliosan2.jpg" alt="BIBLIOTECA PUBLICA MUNICIPIO DE SAN MARTIN" data-description=""></li>
@@ -181,7 +285,7 @@
                                     </ul>
                                 </div>
 
-                                <div style="margin-top: 50px">
+                                <div style="margin-top: 50px" class="no-activo" id="gale7">
                                     <ul class="pgwSlideshowLight">
                                         <li><img src="images/proyectos/bliopue1.jpg" alt="BIBLIOTECA PUBLICA MUNICIPIO DE PUERTO LOPEZ" data-description=""></li>
                                         <li><img src="images/proyectos/bliopue2.jpg" alt="BIBLIOTECA PUBLICA MUNICIPIO DE PUERTO LOPEZ" data-description=""></li>
@@ -191,7 +295,7 @@
                                     </ul>
                                 </div>
 
-                                <div style="margin-top: 50px">
+                                <div style="margin-top: 50px" class="no-activo" id="gale8">
                                     <ul class="pgwSlideshowLight">
                                         <li><img src="images/proyectos/interiraca1.jpg" alt="INTERNADO MIXTO GRANJA DE IRAKA" data-description=""></li>
                                         <li><img src="images/proyectos/interiraca2.jpg" alt="INTERNADO MIXTO GRANJA DE IRAKA" data-description=""></li>
@@ -201,7 +305,7 @@
                                     </ul>
                                 </div>
 
-                                <div style="margin-top: 50px">
+                                <div style="margin-top: 50px" class="no-activo" id="gale9">
                                     <ul class="pgwSlideshowLight">
                                         <li><img src="images/proyectos/salire1.jpg" alt="URBANIZACIÓN SALITRE" data-description=""></li>
                                         <li><img src="images/proyectos/salire2.jpg" alt="URBANIZACIÓN SALITRE" data-description=""></li>
@@ -211,7 +315,7 @@
                                     </ul>
                                 </div>
 
-                                <div style="margin-top: 50px">
+                                <div style="margin-top: 50px" class="no-activo" id="gale10">
                                     <ul class="pgwSlideshowLight">
                                         <li><img src="images/proyectos/manga1.jpg" alt="GRADERIAS Y CUBIERTA MANGA DE COLEO BENEDICTO CELY" data-description=""></li>
                                         <li><img src="images/proyectos/manga2.jpg" alt="GRADERIAS Y CUBIERTA MANGA DE COLEO BENEDICTO CELY" data-description=""></li>
@@ -221,7 +325,7 @@
                                     </ul>
                                 </div>
 
-                                <div style="margin-top: 50px">
+                                <div style="margin-top: 50px" class="no-activo" id="gale11">
                                     <ul class="pgwSlideshowLight">
                                         <li><img src="images/proyectos/bliopuerto1.jpg" alt="BIBLIOTECA PUBLICA PUERTO GAITAN" data-description=""></li>
                                         <li><img src="images/proyectos/bliopuerto2.jpg" alt="BIBLIOTECA PUBLICA PUERTO GAITAN" data-description=""></li>
@@ -231,7 +335,7 @@
                                     </ul>
                                 </div>
 
-                                <div style="margin-top: 50px">
+                                <div style="margin-top: 50px" class="no-activo" id="gale12">
                                     <ul class="pgwSlideshowLight">
                                         <li><img src="images/proyectos/cabuyaro1.jpg" alt="SAN NICOLAS MUNICIPIO CABUYARO - META" data-description=""></li>
                                         <li><img src="images/proyectos/cabuyaro2.jpg" alt="SAN NICOLAS MUNICIPIO CABUYARO - META" data-description=""></li>
@@ -240,7 +344,7 @@
                                     </ul>
                                 </div>
 
-                                <div style="margin-top: 50px">
+                                <div style="margin-top: 50px" class="no-activo" id="gale13">
                                     <ul class="pgwSlideshowLight">
                                         <li><img src="images/proyectos/granada1.jpg" alt="BIBLIOTECA PUBLICA MUNICIPIO DE GRANADA" data-description=""></li>
                                         <li><img src="images/proyectos/granada2.jpg" alt="BIBLIOTECA PUBLICA MUNICIPIO DE GRANADA" data-description=""></li>
@@ -248,7 +352,7 @@
                                     </ul>
                                 </div>
 
-                                <div style="margin-top: 50px">
+                                <div style="margin-top: 50px" class="no-activo" id="gale14">
                                     <ul class="pgwSlideshowLight">
                                         <li><img src="images/proyectos/semi1.jpg" alt="URBANIZACIÓN SEMILLAS DE PAZ" data-description=""></li>
                                         <li><img src="images/proyectos/semi2.jpg" alt="URBANIZACIÓN SEMILLAS DE PAZ" data-description=""></li>
@@ -258,7 +362,7 @@
                                     </ul>
                                 </div>
 
-                                <div style="margin-top: 50px">
+                                <div style="margin-top: 50px" class="no-activo" id="gale15">
                                     <ul class="pgwSlideshowLight">
                                         <li><img src="images/proyectos/colector1.jpg" alt="CONSTRUCCIÓN COLECTOR OCOA ALCANTARILLADO SANITARIO DEL MUNICIPIO DE VILLAVICENCIO" data-description=""></li>
                                         <li><img src="images/proyectos/colector2.jpg" alt="CONSTRUCCIÓN COLECTOR OCOA ALCANTARILLADO SANITARIO DEL MUNICIPIO DE VILLAVICENCIO" data-description=""></li>
@@ -268,7 +372,7 @@
                                     </ul>
                                 </div>
 
-                                <div style="margin-top: 50px">
+                                <div style="margin-top: 50px" class="no-activo" id="gale16">
                                     <ul class="pgwSlideshowLight">
                                         <li><img src="images/proyectos/vence1.jpg" alt="CONSTRUCCIÓN EMPALME COLECTOR VENCEDORES – COLECTOR MAIZARO MUNICIPIO DE VILLAVICENCIO" data-description=""></li>
                                         <li><img src="images/proyectos/vence2.jpg" alt="CONSTRUCCIÓN EMPALME COLECTOR VENCEDORES – COLECTOR MAIZARO MUNICIPIO DE VILLAVICENCIO" data-description=""></li>
@@ -329,46 +433,6 @@
             </div>
     </div>
 
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('.slidewrap2').carousel({
-                slider: '.slider',
-                slide: '.slide',
-                slideHed: '.slidehed',
-                nextSlide : '.next',
-                prevSlide : '.prev',
-                addPagination: false,
-                addNav : false
-            });
-
-            $('#galeria li').on('click',function(){
-
-            });
-        });
-        $(window).load(function(){
-             $("a[class^='prettyPhoto']").prettyPhoto({social_tools: '' });
-             // cache container
-            var $container = $('#isotope-container');
-            // initialize isotope
-            $container.isotope({
-                animationOptions: {
-                    duration: 750,
-                    easing: 'linear',
-                    queue: false
-                },
-                layoutMode : 'fitRows'
-            });
-            // filter items when filter link is clicked
-            $('#filters a').click(function(){
-                $("#filters a.active").removeClass('active');
-                $(this).addClass('active');
-                var selector = $(this).attr('data-filter');
-                $container.isotope({ filter: selector });
-                return false;
-            });
-        });
-
-    </script>
 
 	</div>
 </body>
